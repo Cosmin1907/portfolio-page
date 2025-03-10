@@ -3,7 +3,7 @@ import './Hero.css'
 
 const hero = () => {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="hero-left">
         <h1>HI, I AM COSMIN TIMOFTE</h1>
         <p>A Romania based full-stack developer passionate about building accessible user friendly apps.</p>
@@ -20,7 +20,7 @@ const hero = () => {
       <div className="hero-right">
         <img src="" alt="my photo" />
       </div>
-    </div>
+    </section>
   )
 }
 
