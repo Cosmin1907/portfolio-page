@@ -2,7 +2,7 @@ import React from 'react'
 import './ProjectCard.css'
 
 
-const ProjectCard = ({title, description, year, technologies, image}) => {
+const ProjectCard = ({title, description, year, technologies, image, url}) => {
   return (
     <div className="project-card">
       <div className="project-card-image">
@@ -16,7 +16,9 @@ const ProjectCard = ({title, description, year, technologies, image}) => {
         <h4>Project info:</h4>
         <p>Year: {year}</p>
         <p>Technologies: {technologies}</p>
-        <button className="project-card-btn">View Project</button>
+        <a href={url} target='_blank'>
+        <button className="project-card-btn">Live Project <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+        </a>
       </div>
     </div>
   )
