@@ -1,7 +1,8 @@
 import React from 'react'
 import './Hero.css'
+import GitHub from '../GitHubProfile/GitHubProfile'
 
-const hero = () => {
+const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-left">
@@ -13,8 +14,8 @@ const hero = () => {
           <a href="mailto:cosmintimfote@email.com" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope"></i></a>
         </div>
         <div className="github">
-          <p>SEARCH MY GITHUB:</p>
-          <input type="text" placeholder="Search..." />
+          <p>CHECK OUT MY GITHUB:</p>
+          <GitHub />
         </div>
       </div>
       <div className="hero-right">
@@ -24,4 +25,4 @@ const hero = () => {
   )
 }
 
-export default hero
+export default Hero
