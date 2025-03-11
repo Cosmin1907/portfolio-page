@@ -2,20 +2,21 @@ import React from 'react'
 import './ProjectCard.css'
 import Button from '../Button/Button'
 
-const ProjectCard = () => {
+
+const ProjectCard = ({title, description, year, technologies, image}) => {
   return (
     <div className="project-card">
       <div className="project-card-image">
-        <img src="https://via.placeholder.com/150" alt="project" />
+        <img src={image} alt="project" />
       </div>
       <div className="project-card-content">
-        <h3>Project Title</h3>
+        <h3>{title}</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          {description}
         </p>
         <h4>Project info:</h4>
-        <p>Year: </p>
-        <p>Technologies: </p>
+        <p>Year: {year}</p>
+        <p>Technologies: {technologies}</p>
         <Button/>
       </div>
     </div>
