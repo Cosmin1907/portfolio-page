@@ -1,5 +1,6 @@
 import React from 'react'
 import './Work.css'
+import Card from '../ProjectCard/ProjectCard'
 
 const Work = () => {
   return (
