@@ -1,6 +1,7 @@
 import React from 'react'
 import './Work.css'
 import Card from '../ProjectCard/ProjectCard'
+import data from '../../data/data.json'
 
 const Work = () => {
   return (
@@ -10,9 +11,17 @@ const Work = () => {
         <p>Below are a few selected projects that highlight my passion for app development.</p>
       </div>
       <div className="portfolio-cards">
-        <Card/>
-        <Card/>
-        <Card/>
+        {data.map((project) => (
+          <Card 
+            key={project.id}
+            title={project.title}
+            description={project.description}
+            year={project.year}
+            technologies={project.technologies}
+            image={project.image}
+            url={project.url}
+          />  
+        ))}
       </div>
     </section>
   )

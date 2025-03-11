@@ -15,11 +15,11 @@ const About = () => {
           <li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript</li>
+          <li>Python</li>
           <li>React</li>
-          <li>Node.js</li>
-          <li>Express</li>
+          <li>Django</li>
+          <li>Flask</li>
           <li>Git</li>
-          <li>GitHub</li>
         </ul>
       </div>
     </section>
