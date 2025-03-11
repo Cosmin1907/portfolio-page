@@ -1,6 +1,5 @@
 import React from 'react'
 import './ProjectCard.css'
-import Button from '../Button/Button'
 
 
 const ProjectCard = ({title, description, year, technologies, image}) => {
@@ -17,7 +16,7 @@ const ProjectCard = ({title, description, year, technologies, image}) => {
         <h4>Project info:</h4>
         <p>Year: {year}</p>
         <p>Technologies: {technologies}</p>
-        <Button/>
+        <button className="project-card-btn">View Project</button>
       </div>
     </div>
   )
