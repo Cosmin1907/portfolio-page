@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "title": "Project One",
+      "description": "This is the first project description.",
+      "year": "2023",
+      "technologies": "React, CSS, JavaScript",
+      "image": "https://via.placeholder.com/300"
+    },
+    {
+      "id": 2,
+      "title": "Project Two",
+      "description": "This is the second project description.",
+      "year": "2024",
+      "technologies": "Next.js, Tailwind",
+      "image": "https://via.placeholder.com/300"
+    }
+  ]
+  
