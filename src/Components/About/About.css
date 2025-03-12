@@ -1,0 +1,14 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem; 
+    margin-top: 3rem; 
+    margin-bottom: 3rem; 
+}
+
+.about-skills ul{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
