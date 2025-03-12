@@ -1,3 +1,25 @@
-.hero-right img{
-    width: 400px;
-}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem; 
+    padding: 0 3rem; 
+    margin-top: 3rem; 
+    margin-bottom: 3rem; 
+    width: 100vw;
+  }
+  
+  .hero-right img {
+    width: 600px; 
+    border-radius: 0.5rem; 
+  }
+  
+  .hero-left h1 {
+    font-size: 4rem; 
+    margin-bottom: 1.5rem; 
+  }
+  
+  .social-links {
+    display: flex; 
+    gap: 1rem; 
+  }

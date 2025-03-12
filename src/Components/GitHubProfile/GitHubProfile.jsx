@@ -8,6 +8,7 @@ const GitHubProfile = () => {
     loading: false,
     error: ''
   });
+  const [showRepos, setShowRepos] = useState(false); // State to manage visibility
 
   const username = 'Cosmin1907'; // Hardcoded username
 
@@ -53,22 +54,24 @@ const GitHubProfile = () => {
       {data.error && <p>{data.error}</p>}
 
       {data.user && (
-        <div>
-          <h2>
+        <div className="github-profile">
+          <div className="user-info">
+          <i className="fa-brands fa-github"></i>
             {data.user.name} (@
             <a href={data.user.html_url} target="_blank" rel="noopener noreferrer">
               {data.user.login}
             </a>)
-          </h2>
-          <img src={data.user.avatar_url} alt={data.user.login} width="80" height="80" />
+          </div>
           <p>
-            Followers: {data.user.followers} - Following: {data.user.following} <br />
             Repos: {data.user.public_repos}
+          </p>
+          <p onClick={() => setShowRepos(!showRepos)} style={{ cursor: 'pointer' }}>
+            See preview <i className="fa-regular fa-hand-point-right"></i>
           </p>
         </div>
       )}
 
-      {data.repos.length > 0 && (
+      {showRepos && data.repos.length > 0 && (
         <ul>
           {data.repos.map((repo) => (
             <li key={repo.id}>

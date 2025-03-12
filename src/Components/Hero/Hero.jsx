@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-left">
-        <h1>HI, I AM COSMIN TIMOFTE</h1>
+        <h1>HI, I AM <br />COSMIN TIMOFTE</h1>
         <p>A Romania based full-stack developer passionate about building accessible user friendly apps.</p>
         <div className="social-links">
           <p>GET IN TOUCH:</p>
@@ -14,7 +14,6 @@ const Hero = () => {
           <a href="mailto:cosmintimfote@email.com" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope"></i></a>
         </div>
         <div className="github">
-          <p>CHECK OUT MY GITHUB:</p>
           <GitHub />
         </div>
       </div>

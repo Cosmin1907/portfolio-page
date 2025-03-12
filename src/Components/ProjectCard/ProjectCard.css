@@ -1,3 +1,9 @@
-.project-card-image {
+.project-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-card-image img {
     width: 500px;
 }
