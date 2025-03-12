@@ -5,7 +5,7 @@ import data from '../../data/data.json'
 
 const Work = () => {
   return (
-    <section className="portfolio-container">
+    <section className="portfolio-container" id="work">
       <div className="portfolio-text">
         <h2>PORTFOLIO PROJECTS</h2>
         <p>Below are a few selected projects that highlight my passion for app development.</p>
