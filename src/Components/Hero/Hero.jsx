@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-right">
-        <img src="" alt="my photo" />
+        <img src="/images/eu.jpg" alt="my photo" />
       </div>
     </section>
   )

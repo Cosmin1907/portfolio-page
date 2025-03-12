@@ -5,7 +5,7 @@
       "description": "This is the first project description.",
       "year": "2023",
       "technologies": "React, CSS, JavaScript",
-      "image": "https://via.placeholder.com/300",
+      "image": "images/marko.PNG",
       "url": "https://www.google.com",
       "github": "https://www.github.com"
     },
@@ -15,7 +15,7 @@
       "description": "This is the second project description.",
       "year": "2024",
       "technologies": "Next.js, Tailwind",
-      "image": "https://via.placeholder.com/300",
+      "image": "images/saastack.PNG",
       "url": "https://www.google.com",
       "github": "https://www.github.com"
     }
