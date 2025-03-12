@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <div className="back-link">
-        <a href="#header">Back to top</a>
+      
+        <a href="#header"><i class="fa-solid fa-arrow-up-long"></i> Back to top <i class="fa-solid fa-arrow-up-long"></i></a>
       </div>
       <div className="social-links">
         <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
