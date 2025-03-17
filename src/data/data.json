@@ -2,9 +2,9 @@
     {
       "id": 1,
       "title": "Project One",
-      "description": "This is the first project description.",
+      "description": "A full-stack website with a React frontend and a WordPress backend, connected via a REST API.  ",
       "year": "2023",
-      "technologies": "React, CSS, JavaScript",
+      "technologies": "HTML5, CSS, React, JavaScript.",
       "image": "images/marko.PNG",
       "url": "https://www.google.com",
       "github": "https://www.github.com"
@@ -12,9 +12,9 @@
     {
       "id": 2,
       "title": "Project Two",
-      "description": "This is the second project description.",
+      "description": "TA web directory developed using React and Vite, optimized for fast and seamless navigation. ",
       "year": "2024",
-      "technologies": "Next.js, Tailwind",
+      "technologies": "HTML5, CSS, React, Vite, JavaScript. ",
       "image": "images/saastack.PNG",
       "url": "https://www.google.com",
       "github": "https://www.github.com"
