@@ -7,6 +7,17 @@
     margin-bottom: 3rem; 
 }
 
+.portfolio-container h2 {
+    font-size: 3rem; 
+    margin-bottom: 1.5rem; 
+}
+
+.portfolio-container p {
+    font-size: 1rem; 
+    margin-bottom: 1.5rem; 
+    max-width: 600px;
+}
+
 .portfolio-cards {
     display: flex;
     flex-direction: column;
