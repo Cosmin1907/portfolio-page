@@ -12,3 +12,18 @@
     gap: 1rem;
     list-style: none;
 }
+
+.about-container h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-container h3 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-container p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
