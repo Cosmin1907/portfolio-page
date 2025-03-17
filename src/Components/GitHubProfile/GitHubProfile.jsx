@@ -70,6 +70,7 @@ const GitHubProfile = () => {
         </div>
       )}
 
+      <div className="repos">
       {showRepos && data.repos.length > 0 && (
         <ul>
           {data.repos.map((repo) => (
@@ -81,6 +82,7 @@ const GitHubProfile = () => {
           ))}
         </ul>
       )}
+      </div>
     </div>
   );
 };
