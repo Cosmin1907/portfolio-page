@@ -21,9 +21,21 @@
 .about-container h3 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    max-width: 1200px;
 }
 
 .about-container p {
     font-size: 1rem;
     margin-bottom: 1.5rem;
+    max-width: 1200px;
+}
+
+.about-skills li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-skills i {
+    font-size: 3rem;
 }
