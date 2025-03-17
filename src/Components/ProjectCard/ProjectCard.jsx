@@ -13,9 +13,10 @@ const ProjectCard = ({title, description, year, technologies, image, url}) => {
         <p>
           {description}
         </p>
-        <h4>Project info:</h4>
         <p>Year: {year}</p>
-        <p>Technologies: {technologies}</p>
+        <p>Technologies: {technologies.split(', ').map((tech) => (
+          <span key={tech} className="tech-badge">{tech}</span>
+        ))}</p>
         <a href={url} target='_blank'>
         <button className="project-card-btn">Live Project <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
         </a>

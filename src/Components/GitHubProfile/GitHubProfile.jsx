@@ -56,8 +56,7 @@ const GitHubProfile = () => {
       {data.user && (
         <div className="github-profile">
           <div className="user-info">
-          <i className="fa-brands fa-github"></i>
-            {data.user.name} (@
+            {data.user.name} <i className="fa-brands fa-github"></i>  (@
             <a href={data.user.html_url} target="_blank" rel="noopener noreferrer">
               {data.user.login}
             </a>)

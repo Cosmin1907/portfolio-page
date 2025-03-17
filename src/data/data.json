@@ -1,23 +1,22 @@
 [
+  {
+    "id": 1,
+    "title": "Web directory",
+    "description": "A web directory built with React and Vite for fast and smooth navigation, connected to a WordPress backend for managing content via a REST API. The React frontend ensures quick rendering and dynamic updates, while WordPress handles content storage and management.",
+    "year": "2024",
+    "technologies": "HTML5, CSS, React, Vite, JavaScript",
+    "image": "images/saastack.PNG",
+    "url": "https://www.google.com",
+    "github": "https://www.github.com"
+  },
     {
-      "id": 1,
-      "title": "Project One",
-      "description": "A full-stack website with a React frontend and a WordPress backend, connected via a REST API.  ",
-      "year": "2023",
-      "technologies": "HTML5, CSS, React, JavaScript.",
-      "image": "images/marko.PNG",
-      "url": "https://www.google.com",
-      "github": "https://www.github.com"
-    },
-    {
-      "id": 2,
-      "title": "Project Two",
-      "description": "TA web directory developed using React and Vite, optimized for fast and seamless navigation. ",
-      "year": "2024",
-      "technologies": "HTML5, CSS, React, Vite, JavaScript. ",
-      "image": "images/saastack.PNG",
-      "url": "https://www.google.com",
-      "github": "https://www.github.com"
-    }
-  ]
-  
+    "id": 2,
+    "title": "E Commerce Website",
+    "description": "A full-stack website with a React frontend and a WordPress backend, connected through a REST API. The React frontend handles the user interface and dynamic interactions, while WordPress manages the content and data.",
+    "year": "2023",
+    "technologies": "HTML5, CSS, React, JavaScript",
+    "image": "images/marko.PNG",
+    "url": "https://www.google.com",
+    "github": "https://www.github.com"
+  }
+]
