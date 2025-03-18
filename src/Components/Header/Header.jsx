@@ -1,13 +1,21 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Header.css'
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="header" id="header">
       <div className="logo">
-        <p>COSMIN TIMOFTE</p>
+        <span>COSMIN TIMOFTE</span>
       </div>
-      <nav className="nav" aria-label="Main Navigation">
+      <button onClick={toggleMenu} aria-expanded={isOpen}>
+      <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav className={isOpen ? "nav open" : "nav"} aria-label="Main Navigation">
         <ul>
           <li><a href="#work">Work</a></li>
           <li><a href="#about">About</a></li>
