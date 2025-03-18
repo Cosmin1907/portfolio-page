@@ -1,27 +1,27 @@
 .about-container {
     display: flex;
     flex-direction: column;
-    padding: 0 3rem; 
-    margin-top: 3rem; 
-    margin-bottom: 3rem; 
+    padding: 0 1.5rem;
+    margin: 2rem 0;
 }
 
-.about-skills ul{
+.about-skills ul {
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    justify-content: space-around;
     list-style: none;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    gap: 2.5rem;
 }
 
 .about-container h2 {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.75rem; 
+    margin-bottom: 1.5rem; 
 }
 
 .about-container h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    max-width: 1200px;
 }
 
 .about-container p {
@@ -37,5 +37,5 @@
 }
 
 .about-skills i {
-    font-size: 3rem;
+    font-size: 4rem;
 }
