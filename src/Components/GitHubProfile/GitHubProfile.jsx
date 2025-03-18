@@ -64,7 +64,7 @@ const GitHubProfile = () => {
           <p>
             Repos: {data.user.public_repos}
           </p>
-          <p onClick={() => setShowRepos(!showRepos)} style={{ cursor: 'pointer' }}>
+          <p className='show' onClick={() => setShowRepos(!showRepos)} style={{ cursor: 'pointer' }}>
             See preview <i class="fa-regular fa-hand-point-down"></i>
           </p>
         </div>

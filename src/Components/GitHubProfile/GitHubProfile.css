@@ -1,6 +1,15 @@
 .github-profile {
     display: flex;
-    gap: 1.5rem;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.github-profile p {
+    margin-bottom: 0.5rem;
+}
+
+.show {
+    color: #DDDAA7;
 }
 
 .repos ul {
