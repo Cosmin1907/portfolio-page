@@ -18,18 +18,18 @@ const GitHubProfile = () => {
     const token = import.meta.env.VITE_GITHUB_TOKEN;
 
     try {
-        const [userResponse, repoResponse] = await Promise.all([
-          fetch(`https://api.github.com/users/${username}`, {
-            headers: {
-              Authorization: `token ${token}`
-            }
-          }),
-          fetch(`https://api.github.com/users/${username}/repos`, {
-            headers: {
-              Authorization: `token ${token}`
-            }
-          })
-        ]);
+      const [userResponse, repoResponse] = await Promise.all([
+        fetch(`https://api.github.com/users/${username}`, {
+          headers: {
+            Authorization: `token ${token}`
+          }
+        }),
+        fetch(`https://api.github.com/users/${username}/repos`, {
+          headers: {
+            Authorization: `token ${token}`
+          }
+        })
+      ]);
 
       if (userResponse.status === 404) {
         throw new Error(`No info found for user ${username}`);
@@ -65,23 +65,23 @@ const GitHubProfile = () => {
             Repos: {data.user.public_repos}
           </p>
           <p onClick={() => setShowRepos(!showRepos)} style={{ cursor: 'pointer' }}>
-            See preview <i className="fa-regular fa-hand-point-right"></i>
+            See preview <i class="fa-regular fa-hand-point-down"></i>
           </p>
         </div>
       )}
 
       <div className="repos">
-      {showRepos && data.repos.length > 0 && (
-        <ul>
-          {data.repos.map((repo) => (
-            <li key={repo.id}>
-              <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
-                {repo.name}
-              </a>
-            </li>
-          ))}
-        </ul>
-      )}
+        {showRepos && data.repos.length > 0 && (
+          <ul>
+            {data.repos.map((repo) => (
+              <li key={repo.id}>
+                <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
+                  {repo.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );
