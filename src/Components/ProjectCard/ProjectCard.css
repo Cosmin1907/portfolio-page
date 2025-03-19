@@ -72,5 +72,12 @@
 }
 
 @media (min-width: 1024px) {
+    .project-card {
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .project-card-content h3 {
+        font-size: 2.25rem;
+    }
 
 }

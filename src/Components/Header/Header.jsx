@@ -27,7 +27,7 @@ const Header = () => {
       <Flag className='flag' code="RO"/>
       </button>
       </div>
-      <button onClick={toggleMenu} aria-expanded={isOpen}>
+      <button className='burger' onClick={toggleMenu} aria-expanded={isOpen}>
       <i class="fa-solid fa-bars"></i>
       </button>
       <nav className={isOpen ? "nav open" : "nav"} aria-label="Main Navigation">

@@ -55,7 +55,16 @@
 /* ✅ Small laptops and desktops (≥1024px) */
 @media (min-width: 1024px) {
   .hero {
+    justify-content: space-between;
     flex-direction: row;
     padding: 0 4rem;
+  }
+  .hero-right img {
+    max-width: 600px; 
+    height: auto;
+  }
+  .hero-left h1 {
+    font-size: 4rem; /* Smaller font size for mobile */
+    margin-bottom: 1.5rem;
   }
 }
