@@ -10,7 +10,7 @@ const Work = () => {
     <section className="portfolio-container" id="work">
       <div className="portfolio-text">
         <h2>{t('portfolio')}</h2>
-        <p>Below are a few selected projects that highlight my passion for app development and showcase my skills in building responsive and user-friendly applications.</p>
+        <p>{t('portfolioDescription')}</p>
       </div>
       <div className="portfolio-cards">
         {data.map((project) => (
