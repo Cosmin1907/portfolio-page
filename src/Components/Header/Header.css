@@ -41,8 +41,9 @@
 }
 
 .languages .flag {
-    width: 2rem; 
-    height: 1.5rem; 
+    width: 1.75rem;
+    aspect-ratio: 3 / 2; /* Forces a 3:2 ratio */
+    object-fit: cover; /* Crops the flag if needed to maintain ratio */
   }
 
 /* ✅ Show nav when open on small screens */
