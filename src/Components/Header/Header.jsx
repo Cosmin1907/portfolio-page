@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import './Header.css'
 import { useTranslation } from 'react-i18next';
+import Flag from 'react-world-flags';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -19,8 +20,12 @@ const Header = () => {
         <span>{t('nameLabel')}</span>
       </div>
       <div className="languages">
-      <button onClick={() => changeLanguage('en')}>🇬🇧 English</button>
-      <button onClick={() => changeLanguage('ro')}>🇷🇴 Română</button>
+      <button onClick={() => changeLanguage('en')}>
+      <Flag className='flag' code="GB"/>
+      </button>
+      <button onClick={() => changeLanguage('ro')}>
+      <Flag className='flag' code="RO"/>
+      </button>
       </div>
       <button onClick={toggleMenu} aria-expanded={isOpen}>
       <i class="fa-solid fa-bars"></i>
