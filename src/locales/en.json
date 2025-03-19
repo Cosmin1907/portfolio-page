@@ -1,6 +1,12 @@
 {
+    "h1Label": "HI, I'AM",
+    "nameLabel": "COSMIN TIMOFTE",
+    "herodescription": "A Romania based full-stack developer passionate about building accessible user friendly apps.",
     "yearLabel": "Year:",
     "technologiesLabel": "Technologies:",
-    "liveProjectButton": "Live Project"
-}
+    "liveProjectButton": "Live Project",
+    "workLabel": "Work",
+    "aboutLabel": "About",
+    "cvLabel": "Download my CV"
+  }
   

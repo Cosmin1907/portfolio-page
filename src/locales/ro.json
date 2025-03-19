@@ -1,6 +1,11 @@
 {
-    "yearLabel": "Anul:",
-    "technologiesLabel": "Tehnologii:",
-    "liveProjectButton": "Acceseaza Proiectul"
-  }
-  
+  "h1Label": "SALUT, SUNT",
+  "nameLabel": "COSMIN TIMOFTE",
+  "herodescription": "Un dezvoltator full-stack pasionat de construirea de aplicatii accesibile si prietenoase cu utilizatorul.",
+  "yearLabel": "Anul:",
+  "technologiesLabel": "Tehnologii:",
+  "liveProjectButton": "Acceseaza Proiectul",
+  "workLabel": "Proicte",
+  "aboutLabel": "Despre mine",
+  "cvLabel": "Descarcă CV-ul"
+}

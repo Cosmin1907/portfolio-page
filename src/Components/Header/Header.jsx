@@ -3,7 +3,7 @@ import './Header.css'
 import { useTranslation } from 'react-i18next';
 
 const Header = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
     localStorage.setItem('language', lng);
@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header className="header" id="header">
       <div className="logo">
-        <span>COSMIN TIMOFTE</span>
+        <span>{t('nameLabel')}</span>
       </div>
       <div className="languages">
       <button onClick={() => changeLanguage('en')}>🇬🇧 English</button>
@@ -27,9 +27,9 @@ const Header = () => {
       </button>
       <nav className={isOpen ? "nav open" : "nav"} aria-label="Main Navigation">
         <ul>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Download my CV</a></li>
+        <li><a href="#work">{t('workLabel')}</a></li>
+        <li><a href="#about">{t('aboutLabel')}</a></li>
+        <li><a href="#contact">{t('cvLabel')}</a></li>
         </ul>
       </nav>
     </header>
