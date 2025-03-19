@@ -1,7 +1,13 @@
 import React, {useState} from 'react'
 import './Header.css'
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
+  const { i18n } = useTranslation();
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem('language', lng);
+  };
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -11,6 +17,10 @@ const Header = () => {
     <header className="header" id="header">
       <div className="logo">
         <span>COSMIN TIMOFTE</span>
+      </div>
+      <div className="languages">
+      <button onClick={() => changeLanguage('en')}>🇬🇧 English</button>
+      <button onClick={() => changeLanguage('ro')}>🇷🇴 Română</button>
       </div>
       <button onClick={toggleMenu} aria-expanded={isOpen}>
       <i class="fa-solid fa-bars"></i>

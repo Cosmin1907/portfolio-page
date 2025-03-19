@@ -21,7 +21,14 @@
 .social-links {
   display: flex;
   gap: 0.75rem;
+  font-size: 1.5rem;
+  align-items: center;
 }
+
+.social-links p {
+  margin-bottom: 0;
+}
+
 
 /* ✅ Larger phones (≥480px) */
 @media (min-width: 480px) {
