@@ -2,12 +2,14 @@ import React from 'react'
 import './Work.css'
 import Card from '../ProjectCard/ProjectCard'
 import data from '../../data/data.json'
+import { useTranslation } from 'react-i18next'
 
 const Work = () => {
+  const { t } = useTranslation();
   return (
     <section className="portfolio-container" id="work">
       <div className="portfolio-text">
-        <h2>PORTFOLIO PROJECTS</h2>
+        <h2>{t('portfolio')}</h2>
         <p>Below are a few selected projects that highlight my passion for app development and showcase my skills in building responsive and user-friendly applications.</p>
       </div>
       <div className="portfolio-cards">

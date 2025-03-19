@@ -1,21 +1,18 @@
 import React from 'react'
 import './About.css'
+import { useTranslation } from 'react-i18next'
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <section className="about-container" id="about">
       <div className="about-text">
-        <h2>ABOUT ME</h2>
-        <h3>I am a full stack developer based in Romania. With an interest in Machine Learning</h3>
-        <p>Junior Full Stack Developer with a Diploma from the Code Institute, proficient in
-          HTML, CSS, JavaScript, and Python, with foundational skills in data analytics and
-          predictive modelling. With 11 years of experience in transportation, I've managed
-          freight logistics across Europe. Skilled in client communication, team coordination,
-          and problem-solving, I'm eager to bring my experience to the tech industry and
-          contribute to a dynamic development team..</p>
+        <h2>{t('aboutTitle')}</h2>
+        <h3>{t('aboutSubtitle')}</h3>
+        <p>{t('aboutDescription')}</p>
       </div>
       <div className="about-skills">
-        <h3>The skills, tools and technologies I am good at:</h3>
+        <h3>{t('aboutSkills')}</h3>
         <ul>
           <li><i className="fa-brands fa-html5" style={{ color: '#E34F26' }}></i> HTML5</li>
           <li><i className="fa-brands fa-css3-alt" style={{ color: '#1572B6' }}></i> CSS3</li>

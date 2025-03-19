@@ -1,14 +1,19 @@
 {
-    "h1Label": "HI, I'AM",
-    "nameLabel": "COSMIN TIMOFTE",
-    "herodescription": "A Romania based full-stack developer passionate about building accessible user friendly apps.",
-    "contact": "GET IN TOUCH",
-    "repos": "See all repositories",
-    "yearLabel": "Year:",
-    "technologiesLabel": "Technologies:",
-    "liveProjectButton": "Live Project",
-    "workLabel": "Work",
-    "aboutLabel": "About",
-    "cvLabel": "Download my CV"
-  }
-  
+  "workLabel": "Work",
+  "aboutLabel": "About",
+  "cvLabel": "Download my CV",
+  "h1Label": "HI, I AM",
+  "nameLabel": "COSMIN TIMOFTE",
+  "herodescription": "A Romania based full-stack developer passionate about building accessible user friendly apps.",
+  "contact": "GET IN TOUCH",
+  "repos": "See all repositories",
+  "portfolio": "PROTFOLIO PROJECTS",
+  "portfolioDescription": "Below are a few selected projects that highlight my passion for app development and showcase my skills in building responsive and user-friendly applications.",
+  "yearLabel": "Year:",
+  "technologiesLabel": "Technologies:",
+  "liveProjectButton": "Live Project",
+  "aboutTitle": "ABOUT ME",
+  "aboutSubtitle": "I am a full stack developer based in Romania. With an interest in Machine Learning",
+  "aboutDescription": "Junior Full Stack Developer with a Diploma from the Code Institute, proficient in HTML, CSS, JavaScript, and Python, with foundational skills in data analytics and predictive modelling. With 11 years of experience in transportation, I've managed freight logistics across Europe. Skilled in client communication, team coordination, and problem-solving, I'm eager to bring my experience to the tech industry and contribute to a dynamic development team.",
+  "aboutSkills": "The skills, tools and technologies I am good at:"
+}

@@ -4,11 +4,16 @@
   "herodescription": "Un dezvoltator full-stack pasionat de construirea de aplicatii accesibile si prietenoase cu utilizatorul.",
   "contact": "CONTACTEAZĂ-MA",
   "repos": "Vezi toate proiectele",
-  "portfolio": "PROIECTE DIN PORTOFOLIU",
+  "portfolio": "PROIECTE DE PORTOFOLIU",
+  "portfolioDescription": "Mai jos sunt câteva proiecte selectate care evidențiază pasiunea mea pentru dezvoltarea de aplicații și îmi demonstrează abilitățile în construirea de aplicații responsive și prietenoase cu utilizatorul.",
   "yearLabel": "Anul:",
   "technologiesLabel": "Tehnologii:",
   "liveProjectButton": "Acceseaza Proiectul",
-  "workLabel": "Proicte",
+  "workLabel": "Proiecte",
   "aboutLabel": "Despre mine",
-  "cvLabel": "Descarcă CV-ul"
+  "cvLabel": "Descarcă CV-ul",
+  "aboutTitle": "DESPRE MINE",
+  "aboutSubtitle": "Sunt un dezvoltator full stack din România, interesat de învățarea automată (Machine Learning).",
+  "aboutDescription": "Dezvoltator Full Stack Junior cu o diplomă de la Code Institute, competent în HTML, CSS, JavaScript și Python, cu abilități fundamentale în analiza datelor și modelarea predictivă. Cu 11 ani de experiență în transporturi, am gestionat logistica de marfă în toată Europa. Priceput în comunicarea cu clienții, coordonarea echipei și rezolvarea problemelor, sunt dornic să îmi aduc experiența în industria tehnologică și să contribui într-o echipă de dezvoltare dinamică.",
+  "aboutSkills": "Abilitățile, uneltele și tehnologiile la care mă pricep:"
 }
