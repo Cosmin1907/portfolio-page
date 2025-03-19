@@ -12,6 +12,12 @@
     color: #DDDAA7;
 }
 
+.user-info {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
 .repos ul {
     display: flex;
     flex-direction: row;
@@ -25,4 +31,8 @@
 
 .repos li {
     list-style: none;
+}
+
+.repos {
+    margin-bottom: 1rem;
 }

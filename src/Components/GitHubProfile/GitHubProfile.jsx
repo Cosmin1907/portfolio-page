@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './GitHubProfile.css';
+import { useTranslation } from 'react-i18next';
 
 const GitHubProfile = () => {
+  const { t } = useTranslation();
   const [data, setData] = useState({
     user: null,
     repos: [],
@@ -56,16 +58,14 @@ const GitHubProfile = () => {
       {data.user && (
         <div className="github-profile">
           <div className="user-info">
-            {data.user.name} <i className="fa-brands fa-github"></i>  (@
+            <i className="fa-brands fa-github"></i> <span>(@
             <a href={data.user.html_url} target="_blank" rel="noopener noreferrer">
               {data.user.login}
-            </a>)
+            </a>) </span> 
+            <p>Repos: {data.user.public_repos}</p>
           </div>
-          <p>
-            Repos: {data.user.public_repos}
-          </p>
           <p className='show' onClick={() => setShowRepos(!showRepos)} style={{ cursor: 'pointer' }}>
-            See preview <i class="fa-regular fa-hand-point-down"></i>
+            {t('repos')} <i class="fa-regular fa-hand-point-down"></i>
           </p>
         </div>
       )}
