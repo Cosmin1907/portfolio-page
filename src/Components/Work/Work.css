@@ -11,10 +11,6 @@
     margin-bottom: 1.5rem; 
 }
 
-.portfolio-container p {
-    max-width: 600px;
-}
-
 .portfolio-cards {
     display: flex;
     flex-direction: column;
@@ -24,6 +20,9 @@
 @media (min-width: 480px) {
     .portfolio-container {
         padding: 0 2rem;
+    }
+    .portfolio-container h2 {
+        font-size: 2rem; 
     }
 }
 

@@ -36,6 +36,9 @@
     gap: 2rem;
     padding: 0 2rem;
   }
+  .hero-left h1 {
+    font-size: 3rem; /* Smaller font size for mobile */
+  }
 }
 
 /* ✅ Tablets (≥768px) */

@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": {
-      "en": "Web directory",
-      "ro": "Director web"
+      "en": "SaaStack is a Web directory",
+      "ro": "SaaStack este un Director web"
     },
     "description": {
       "en": "A web directory built with React and Vite for fast and smooth navigation, connected to a WordPress backend for managing content via a REST API. The React frontend ensures quick rendering and dynamic updates, while WordPress handles content storage and management.",
@@ -18,8 +18,8 @@
   {
     "id": 2,
     "title": {
-      "en": "E Commerce Website",
-      "ro": "Site de comerț electronic"
+      "en": "Markotavenko is an E Commerce Website",
+      "ro": "Markotavenko este un site de comerț electronic"
     },
     "description": {
       "en": "A full-stack website with a React frontend and a WordPress backend, connected through a REST API. The React frontend handles the user interface and dynamic interactions, while WordPress manages the content and data.",
