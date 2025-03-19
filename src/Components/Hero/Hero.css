@@ -37,7 +37,7 @@
     padding: 0 2rem;
   }
   .hero-left h1 {
-    font-size: 3rem; /* Smaller font size for mobile */
+    font-size: 3rem; 
   }
 }
 
@@ -45,6 +45,10 @@
 @media (min-width: 768px) {
   .hero {
     padding: 0 3rem;
+  }
+
+  .hero-left h1 {
+    font-size: 3.5rem; 
   }
 }
 

@@ -55,6 +55,12 @@
     .about-container {
         padding: 0 3rem;
     }
+    .about-container h2 {
+        font-size: 2.5rem; 
+    }
+    .about-container h3 {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width: 1024px) {
