@@ -68,3 +68,17 @@
     margin-bottom: 1.5rem;
   }
 }
+
+@media (min-width: 1200px) {
+  .hero {
+    padding: 0 6rem;
+  }
+  .hero-right img {
+    max-width: 700px; 
+    height: auto;
+  }
+  .hero-left h1 {
+    font-size: 4.75rem; /* Smaller font size for mobile */
+    margin-bottom: 1.5rem;
+  }
+}

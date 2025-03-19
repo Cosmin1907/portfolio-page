@@ -75,3 +75,14 @@
     }
 }
 
+@media (min-width: 1200px) {
+    .about-container {
+        padding: 0 6rem;
+    }
+    .about-container h2 {
+        font-size: 3.5rem; 
+    }
+    .about-container h3 {
+        font-size: 2.5rem;
+    }
+}

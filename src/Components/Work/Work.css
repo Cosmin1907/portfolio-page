@@ -43,3 +43,12 @@
         font-size: 3rem; 
     }
 }
+
+@media (min-width: 1200px) {
+    .portfolio-container {
+        padding: 0 6rem;
+    }
+    .portfolio-container h2 {
+        font-size: 3.5rem; 
+    }
+}
