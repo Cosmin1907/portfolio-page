@@ -6,7 +6,7 @@
 }
 
 .project-card-image {
-    padding: 2rem 1rem;
+    padding: 2.5rem 1.25rem;
     display: flex;
     background-color: #484848;
     border-radius: 12px;
@@ -37,7 +37,7 @@
 
 .project-card-content p {
     font-size: 1rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .project-card button {
@@ -67,7 +67,10 @@
 
 @media (min-width: 768px) {
     .project-card-content h3 {
-        font-size: 2rem;
+        font-size: 1.75rem;
+    }
+    .project-card-image {
+        padding: 3.5rem 1.5rem;
     }
 }
 
@@ -76,10 +79,19 @@
         flex-direction: row;
         gap: 2rem;
     }
+    .project-card-image {
+        padding: 4rem 1.5rem;
+    } 
+}
+
+@media (min-width: 1280px) {
     .project-card-content h3 {
         font-size: 2.25rem;
     }
-
+    .project-card-content p {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+    }
 }
 
 @media (min-width: 1600px) {

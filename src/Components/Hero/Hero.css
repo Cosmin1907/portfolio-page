@@ -48,7 +48,7 @@
   }
 
   .hero-left h1 {
-    font-size: 3.5rem; 
+    font-size: 3.25rem; 
   }
 }
 
@@ -57,17 +57,26 @@
   .hero {
     justify-content: space-between;
     flex-direction: row;
-    padding: 0 4rem;
   }
   .hero-right img {
-    max-width: 600px; 
+    max-width: 450px; 
     height: auto;
   }
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    padding: 0 4rem;
+  }
   .hero-left h1 {
-    font-size: 4rem; /* Smaller font size for mobile */
+    font-size: 4rem; 
     margin-bottom: 1.5rem;
   }
-}
+  .hero-right img {
+    max-width: 550px; 
+    height: auto;
+  }
+  }
 
 @media (min-width: 1600px) {
   .hero {
@@ -78,7 +87,7 @@
     height: auto;
   }
   .hero-left h1 {
-    font-size: 4.75rem; /* Smaller font size for mobile */
+    font-size: 4.75rem; 
     margin-bottom: 1.5rem;
   }
-}
+} 
