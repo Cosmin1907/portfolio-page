@@ -98,4 +98,11 @@
     .project-card-content h3 {
         font-size: 2.5rem;
     }
+    .project-card-content p {
+        font-size: 1.5rem;
+        margin-bottom: 1.75rem;
+    }
+    .project-card-image img {
+        max-width: 900px;
+    }
 }
