@@ -15,7 +15,7 @@
 .user-info {
     display: flex;
     gap: 0.5rem;
-    align-items: center;
+    align-items: baseline;
 }
 
 .repos ul {
@@ -42,5 +42,9 @@
 }
 
 @media (min-width: 768px) {
+    
+}
+
+@media (min-width: 1600px) {
     
 }

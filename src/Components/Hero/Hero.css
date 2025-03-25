@@ -22,13 +22,12 @@
   display: flex;
   gap: 0.75rem;
   font-size: 1.25rem;
-  align-items: center;
+  align-items: baseline;
 }
 
 .social-links p {
   margin-bottom: 0;
 }
-
 
 /* ✅ Larger phones (≥480px) */
 @media (min-width: 480px) {
@@ -44,7 +43,7 @@
 /* ✅ Tablets (≥768px) */
 @media (min-width: 768px) {
   .hero {
-    padding: 0 3rem;
+    padding: 0 4rem;
   }
 
   .hero-left h1 {
@@ -65,9 +64,6 @@
 }
 
 @media (min-width: 1280px) {
-  .hero {
-    padding: 0 4rem;
-  }
   .hero-left h1 {
     font-size: 4rem; 
     margin-bottom: 1.5rem;
@@ -80,14 +76,10 @@
 
 @media (min-width: 1600px) {
   .hero {
-    padding: 0 6rem;
+    padding: 0 9rem;
   }
   .hero-right img {
     max-width: 700px; 
     height: auto;
-  }
-  .hero-left h1 {
-    font-size: 4.75rem; 
-    margin-bottom: 1.5rem;
   }
 } 

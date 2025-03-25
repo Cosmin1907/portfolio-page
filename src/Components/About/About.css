@@ -53,7 +53,7 @@
 
 @media (min-width: 768px) {
     .about-container {
-        padding: 0 3rem;
+        padding: 0 4rem;
     }
     .about-container h2 {
         font-size: 2.5rem; 
@@ -68,9 +68,6 @@
 }
 
 @media (min-width: 1280px) {
-    .about-container {
-        padding: 0 4rem;
-    }
     .about-container h2 {
         font-size: 3rem; 
     }
@@ -81,16 +78,6 @@
 
 @media (min-width: 1600px) {
     .about-container {
-        padding: 0 6rem;
-    }
-    .about-container h2 {
-        font-size: 3.5rem; 
-    }
-    .about-container h3 {
-        font-size: 2.5rem;
-    }
-    .about-container p {
-        font-size: 1.5rem;
-        margin-bottom: 1.75rem;
+        padding: 0 9rem;
     }
 }
