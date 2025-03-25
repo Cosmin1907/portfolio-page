@@ -12,8 +12,8 @@ const Hero = () => {
         <p>{t('herodescription')}</p>
         <div className="social-links">
           <p>{t('contact')}:</p>
-          <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label='LinkedIn'><i class="fa-brands fa-linkedin"></i></a>
-          <a href="mailto:cosmintimfote@email.com" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope"></i></a>
+          <a href="www.linkedin.com/in/timoftecosmin" target="_blank" rel="noopener noreferrer" aria-label='LinkedIn'><i class="fa-brands fa-linkedin"></i></a>
+          <a href="mailto:timofte.cosmin@outlook.com" target="_blank" rel="noopener noreferrer"><i class="fa-regular fa-envelope"></i></a>
         </div>
         <div className="github">
           <GitHub />

@@ -45,10 +45,6 @@
   .hero {
     padding: 0 4rem;
   }
-
-  .hero-left h1 {
-    font-size: 3.25rem; 
-  }
 }
 
 /* ✅ Small laptops and desktops (≥1024px) */
