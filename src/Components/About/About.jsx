@@ -13,6 +13,7 @@ const About = () => {
       </div>
       <div className="about-skills">
         <h3>{t('aboutSkills')}</h3>
+        <p>{t('skillsp')}:</p>
         <ul>
           <li><img src="/images/HTML5.svg" alt="html5" />HTML5</li>
           <li><img src="/images/CSS3.svg" alt="css3" />CSS3</li>
