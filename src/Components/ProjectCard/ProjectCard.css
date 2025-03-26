@@ -47,7 +47,7 @@
     border: none;
     border-radius: 12px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .tech-badge {
@@ -73,6 +73,9 @@
 @media (min-width: 768px) {
     .project-card-image {
         padding: 3.5rem 1.5rem;
+    }
+    .project-card button {
+        font-size: 1rem;
     }
 }
 

@@ -72,7 +72,7 @@ const GitHubProfile = () => {
 
       <div className="repos">
         {showRepos && data.repos.length > 0 && (
-          <ul className='show'>
+          <ul>
             {data.repos.map((repo) => (
               <li key={repo.id}>
                 <a href={repo.html_url} target="_blank" rel="noopener noreferrer">
