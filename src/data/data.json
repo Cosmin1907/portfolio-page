@@ -12,8 +12,7 @@
     "year": "2025",
     "technologies": "HTML5, CSS, React, Vite, JavaScript",
     "image": "images/saastack.png",
-    "url": "saastack.info",
-    "github": "https://www.github.com"
+    "url": "saastack.info"
   },
   {
     "id": 2,
@@ -28,8 +27,7 @@
     "year": "2024",
     "technologies": "HTML5, CSS, React, JavaScript",
     "image": "images/marko.png",
-    "url": "markotavenko.ro",
-    "github": "https://www.github.com"
+    "url": "markotavenko.ro"
   },
   {
   "id": 3,

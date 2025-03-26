@@ -59,6 +59,11 @@
     font-size: 0.9rem;
 }
 
+.project-card-btns {
+    display: flex;
+    gap: 1rem;
+}
+
 /* Adjust syles for tablets and smaller screens */
 
 @media (min-width: 480px) {

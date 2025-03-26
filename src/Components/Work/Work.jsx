@@ -22,6 +22,7 @@ const Work = () => {
             technologies={project.technologies}
             image={project.image}
             url={project.url}
+            github={project.github}
           />  
         ))}
       </div>

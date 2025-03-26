@@ -3,7 +3,7 @@ import './ProjectCard.css'
 import { useTranslation } from 'react-i18next';
 
 
-const ProjectCard = ({title, description, year, technologies, image, url}) => {
+const ProjectCard = ({ title, description, year, technologies, image, url, github }) => {
   const { t, i18n } = useTranslation();
 
   return (
@@ -20,9 +20,18 @@ const ProjectCard = ({title, description, year, technologies, image, url}) => {
         <p>{t('technologiesLabel')} {technologies.split(', ').map((tech) => (
           <span key={tech} className="tech-badge">{tech}</span>
         ))}</p>
-        <a href={url} target='_blank'>
-        <button className="project-card-btn">{t('liveProjectButton')} <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
-        </a>
+        <div className="project-card-btns">
+          <a href={url} target='_blank'>
+            <button className="project-card-btn">{t('liveProjectButton')} <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+          </a>
+          {github && (
+            <a href={github} target="_blank" rel="noopener noreferrer">
+              <button className="project-card-btn github-btn">
+                {t('githubRepoButton')} <i className="fa-brands fa-github"></i>
+              </button>
+            </a>
+          )}
+        </div>
       </div>
     </div>
   )
