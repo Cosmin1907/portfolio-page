@@ -2,6 +2,7 @@
   "workLabel": "Work",
   "aboutLabel": "About",
   "cvLabel": "Download CV",
+  "cvFile": "/cv.en.pdf",
   "h1Label": "HI, I AM",
   "nameLabel": "COSMIN TIMOFTE",
   "herodescription": "A Romania-based full-stack developer interested in building accessible, user-friendly web apps with intuitive design and strong functionality.",

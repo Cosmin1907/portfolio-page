@@ -34,7 +34,7 @@ const Header = () => {
         <ul>
         <li><a href="#work">{t('workLabel')}</a></li>
         <li><a href="#about">{t('aboutLabel')}</a></li>
-        <li><a href="/cv.pdf" download="">{t('cvLabel')}</a></li>
+        <li><a href={t('cvFile')} download>{t('cvLabel')}</a></li>
         </ul>
       </nav>
     </header>
