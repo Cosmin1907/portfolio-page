@@ -9,10 +9,10 @@
       "en": "A web directory built with React and Vite for fast and smooth navigation, connected to a WordPress backend for managing content via a REST API. The React frontend ensures quick rendering and dynamic updates, while WordPress handles content storage and management.",
       "ro": "Un director web construit cu React și Vite pentru o navigare rapidă și fluidă, conectat la un backend WordPress pentru gestionarea conținutului printr-un REST API. Frontend-ul React asigură o redare rapidă și actualizări dinamice, în timp ce WordPress gestionează stocarea și administrarea conținutului."
     },
-    "year": "2024",
+    "year": "2025",
     "technologies": "HTML5, CSS, React, Vite, JavaScript",
     "image": "images/saastack.png",
-    "url": "https://www.google.com",
+    "url": "saastack.info",
     "github": "https://www.github.com"
   },
   {
@@ -25,10 +25,43 @@
       "en": "A full-stack website with a React frontend and a WordPress backend, connected through a REST API. The React frontend handles the user interface and dynamic interactions, while WordPress manages the content and data.",
       "ro": "Un site full-stack cu un frontend React și un backend WordPress, conectat printr-un REST API. Frontend-ul React gestionează interfața utilizator și interacțiunile dinamice, în timp ce WordPress gestionează conținutul și datele."
     },
-    "year": "2023",
+    "year": "2024",
     "technologies": "HTML5, CSS, React, JavaScript",
     "image": "images/marko.png",
-    "url": "https://www.google.com",
+    "url": "markotavenko.ro",
     "github": "https://www.github.com"
-  }
+  },
+  {
+  "id": 3,
+  "title": {
+    "en": "Restaurant Blue Horizon is a Full-Stack App",
+    "ro": "Restaurant Blue Horizon este o aplicație full-stack"
+  },
+  "description": {
+    "en": "Blue Horizon Café is a fictional seaside restaurant offering a charming dining experience. This Django app provides a robust booking system for users to reserve tables and manage their bookings. Additionally, it features a review system for customers to rate and share feedback on their dining experience. The application ensures a user-friendly interface for both customers and staff to handle reservations and reviews efficiently.",
+    "ro": "Blue Horizon Café este un restaurant fictiv de pe litoral, care oferă o experiență culinară fermecătoare. Această aplicație Django oferă un sistem de rezervări robust, care permite utilizatorilor să rezerve mese și să-și gestioneze rezervările. În plus, include un sistem de recenzii care permite clienților să evalueze și să își împărtășească feedback-ul despre experiența lor culinară. Aplicația asigură o interfață prietenoasă pentru clienți și personal, facilitând gestionarea eficientă a rezervărilor și recenziilor."
+  },
+  "year": "2024",
+  "technologies": "HTML5, CSS, Django, Python",
+  "image": "images/restaurant.png",
+  "url": "https://project4-restaurant-booking-cacc3b345e08.herokuapp.com/",
+  "github": "https://www.github.com"
+},
+{
+  "id": 4,
+  "title": {
+    "en": "Bitcoin Forecast is a Machine Learning Project",
+    "ro": "Bitcoin Forecast este un proiect de învățare automată"
+  },
+  "description": {
+    "en": "Bitcoin Forecast is a machine learning project designed to predict Bitcoin's closing price and trend. It uses GradientBoostingRegressor and RandomForestRegressor to build a robust predictive model. The project includes data preprocessing, feature engineering (e.g., SMAs, MACD, RSI), and hyperparameter tuning to optimize performance. The final model achieves high accuracy on both the training and test sets.",
+    "ro": "Bitcoin Forecast este un proiect de învățare automată conceput pentru a prezice prețul de închidere și tendința Bitcoin. Utilizează GradientBoostingRegressor și RandomForestRegressor pentru a construi un model predictiv robust. Proiectul include preprocesarea datelor, ingineria caracteristicilor (de exemplu, SMAs, MACD, RSI) și reglarea hiperparametrilor pentru a optimiza performanța. Modelul final atinge o precizie ridicată atât pe setul de antrenament, cât și pe cel de testare."
+  },
+  "year": "2024",
+  "technologies": "Python, scikit-learn, pandas, numpy, matplotlib",
+  "image": "images/bitcoin.png",
+  "url": "https://bitcoin-forecast-21da6c961a62.herokuapp.com/",
+  "github": "https://github.com/Cosmin1907/bitcoin-forecast"
+}
+
 ]
