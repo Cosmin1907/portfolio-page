@@ -31,17 +31,19 @@
 .repos ul {
     display: flex;
     position: absolute;
-    top: 150%;
+    top: 320%;
     left: 50%;
-    transform: translateX(-70%);
+    transform: translateX(-73%);
     flex-direction: row;
     flex-wrap: wrap;
     width: 300px;
     gap: 1rem;
-    background-color: rgba(72, 72, 72, 0.7);
-    padding: 1.5rem;
+    background-color: rgba(72, 72, 72, 0.9);
+    padding: 1rem;
     border-radius: 12px;
     pointer-events: auto;
+    /* Add shadow */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
 }
 
 .repos li {
@@ -49,12 +51,27 @@
 }
 
 @media (min-width: 480px) {
-    
+    .repos ul {
+        transform: translateX(-55%);
+        top: 450%;
+        width: 400px;
+        background-color: rgba(72, 72, 72, 0.7);
+    }
 }
 
 @media (min-width: 768px) {
     .repos ul {
-        max-width: 700px;
+        transform: translateX(-44%);
+        top: 600%;
+        width: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .repos ul {
+        transform: translateX(-6%);
+        top: 55%;
+        width: 700px;
     }
 }
 
