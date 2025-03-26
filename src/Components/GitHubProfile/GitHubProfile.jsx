@@ -51,7 +51,7 @@ const GitHubProfile = () => {
   }, []); // Empty dependency array = runs only once on mount
 
   return (
-    <div>
+    <div className='github-container'>
       {data.loading && <p>Loading...</p>}
       {data.error && <p>{data.error}</p>}
 

@@ -18,23 +18,34 @@
     align-items: baseline;
 }
 
-.repos ul {
+.github-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
-    max-width: 700px;
-    background-color: #484848;
-    padding: 1.5rem;
-    border-radius: 12px;
-}
-
-.repos li {
-    list-style: none;
 }
 
 .repos {
     margin-bottom: 1rem;
+    position: relative;
+    pointer-events: none;
+}
+
+.repos ul {
+    display: flex;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translateX(-70%);
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 320px;
+    gap: 1rem;
+    background-color: rgba(72, 72, 72, 0.7);
+    padding: 1.5rem;
+    border-radius: 12px;
+    pointer-events: auto;
+}
+
+.repos li {
+    list-style: none;
 }
 
 @media (min-width: 480px) {
@@ -42,7 +53,9 @@
 }
 
 @media (min-width: 768px) {
-    
+    .repos ul {
+        max-width: 700px;
+    }
 }
 
 @media (min-width: 1600px) {
