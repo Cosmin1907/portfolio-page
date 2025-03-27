@@ -69,7 +69,7 @@
 
 @media (min-width: 1024px) {
     .repos ul {
-        transform: translateX(-6%);
+        transform: translateX(-5%);
         top: 55%;
         width: 700px;
     }
