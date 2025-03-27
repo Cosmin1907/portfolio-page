@@ -2,64 +2,63 @@
   {
     "id": 1,
     "title": {
-      "en": "SaaStack is a Web directory",
-      "ro": "SaaStack este un Director web"
+      "en": "Web Directory with React and WordPress",
+      "ro": "Director web cu React și WordPress"
     },
     "description": {
-      "en": "A web directory built with React and Vite for fast and smooth navigation, connected to a WordPress backend for managing content via a REST API. The React frontend ensures quick rendering and dynamic updates, while WordPress handles content storage and management.",
-      "ro": "Un director web construit cu React și Vite pentru o navigare rapidă și fluidă, conectat la un backend WordPress pentru gestionarea conținutului printr-un REST API. Frontend-ul React asigură o redare rapidă și actualizări dinamice, în timp ce WordPress gestionează stocarea și administrarea conținutului."
+      "en": "A fast and smooth web directory built with React and Vite, connected to a WordPress backend through a REST API. React ensures quick rendering and dynamic updates, while WordPress handles content management. Built using modern frameworks.",
+      "ro": "Un director web rapid și fluid construit cu React și Vite, conectat la un backend WordPress prin REST API. React asigură o redare rapidă și actualizări dinamice, iar WordPress gestionează conținutul. Construit cu framework-uri moderne."
     },
     "year": "2025",
     "technologies": "HTML5, CSS, React, Vite, JavaScript",
     "image": "images/saastack.png",
-    "url": "saastack.info"
+    "url": "https://saastack.info"
   },
   {
     "id": 2,
     "title": {
-      "en": "Markotavenko is an E Commerce Website",
-      "ro": "Markotavenko este un site de comerț electronic"
+      "en": "React and WordPress E-Commerce Site",
+      "ro": "Site de Comerț electronic cu React și WordPress"
     },
     "description": {
-      "en": "A full-stack website with a React frontend and a WordPress backend, connected through a REST API. The React frontend handles the user interface and dynamic interactions, while WordPress manages the content and data.",
-      "ro": "Un site full-stack cu un frontend React și un backend WordPress, conectat printr-un REST API. Frontend-ul React gestionează interfața utilizator și interacțiunile dinamice, în timp ce WordPress gestionează conținutul și datele."
+      "en": "A full-stack e-commerce site built with React for the frontend and WordPress for the backend, connected through a REST API. React handles the user interface and dynamic interactions, while WordPress manages content and data.",
+      "ro": "Un site de comerț electronic full-stack construit cu React pentru frontend și WordPress pentru backend, conectat prin REST API. React gestionează interfața utilizator și interacțiunile dinamice, iar WordPress gestionează conținutul și datele."
     },
     "year": "2024",
     "technologies": "HTML5, CSS, React, JavaScript",
     "image": "images/marko.png",
-    "url": "markotavenko.ro"
+    "url": "https://markotavenko.ro"
   },
   {
-  "id": 3,
-  "title": {
-    "en": "Restaurant Blue Horizon is a Full-Stack App",
-    "ro": "Restaurant Blue Horizon este o aplicație full-stack"
+    "id": 3,
+    "title": {
+      "en": "Full-Stack App with Django and Python",
+      "ro": "Aplicație full-stack cu Django și Python"
+    },
+    "description": {
+      "en": "Blue Horizon Café is a seaside restaurant. Built with Django and Python, it features a table booking and review system, using a PostgreSQL database for data management. The interface ensures smooth handling of reservations and reviews for customers and staff.",
+      "ro": "Blue Horizon Café este un restaurant de pe litoral. Construită cu Django și Python, oferă un sistem de rezervări și recenzii, folosind o bază de date PostgreSQL pentru gestionarea datelor. Interfața facilitează gestionarea rezervărilor și recenziilor pentru clienți și personal."
+    },
+    "year": "2024",
+    "technologies": "HTML5, CSS, Django, Python, PostgreSQL",
+    "image": "images/restaurant.png",
+    "url": "https://project4-restaurant-booking-cacc3b345e08.herokuapp.com/",
+    "github": "https://www.github.com"
   },
-  "description": {
-    "en": "Blue Horizon Café is a fictional seaside restaurant offering a charming dining experience. This Django app provides a robust booking system for users to reserve tables and manage their bookings. Additionally, it features a review system for customers to rate and share feedback on their dining experience. The application ensures a user-friendly interface for both customers and staff to handle reservations and reviews efficiently.",
-    "ro": "Blue Horizon Café este un restaurant fictiv de pe litoral, care oferă o experiență culinară fermecătoare. Această aplicație Django oferă un sistem de rezervări robust, care permite utilizatorilor să rezerve mese și să-și gestioneze rezervările. În plus, include un sistem de recenzii care permite clienților să evalueze și să își împărtășească feedback-ul despre experiența lor culinară. Aplicația asigură o interfață prietenoasă pentru clienți și personal, facilitând gestionarea eficientă a rezervărilor și recenziilor."
-  },
-  "year": "2024",
-  "technologies": "HTML5, CSS, Django, Python",
-  "image": "images/restaurant.png",
-  "url": "https://project4-restaurant-booking-cacc3b345e08.herokuapp.com/",
-  "github": "https://www.github.com"
-},
-{
-  "id": 4,
-  "title": {
-    "en": "Bitcoin Forecast is a Machine Learning Project",
-    "ro": "Bitcoin Forecast este un proiect de învățare automată"
-  },
-  "description": {
-    "en": "Bitcoin Forecast is a machine learning project designed to predict Bitcoin's closing price and trend. It uses GradientBoostingRegressor and RandomForestRegressor to build a robust predictive model. The project includes data preprocessing, feature engineering (e.g., SMAs, MACD, RSI), and hyperparameter tuning to optimize performance. The final model achieves high accuracy on both the training and test sets.",
-    "ro": "Bitcoin Forecast este un proiect de învățare automată conceput pentru a prezice prețul de închidere și tendința Bitcoin. Utilizează GradientBoostingRegressor și RandomForestRegressor pentru a construi un model predictiv robust. Proiectul include preprocesarea datelor, ingineria caracteristicilor (de exemplu, SMAs, MACD, RSI) și reglarea hiperparametrilor pentru a optimiza performanța. Modelul final atinge o precizie ridicată atât pe setul de antrenament, cât și pe cel de testare."
-  },
-  "year": "2024",
-  "technologies": "Python, scikit-learn, pandas, numpy, matplotlib",
-  "image": "images/bitcoin.png",
-  "url": "https://bitcoin-forecast-21da6c961a62.herokuapp.com/",
-  "github": "https://github.com/Cosmin1907/bitcoin-forecast"
-}
-
+  {
+    "id": 4,
+    "title": {
+      "en": "Bitcoin Price Prediction Algorithm",
+      "ro": "Algoritm de Predicție a Prețului Bitcoin"
+    },
+    "description": {
+      "en": "Bitcoin Forecast is a Python-based machine learning project for predicting Bitcoin's closing price and trend. It uses GradientBoostingRegressor and RandomForestRegressor, with data preprocessing, feature engineering, and hyperparameter tuning to improve performance.",
+      "ro": "Bitcoin Forecast este un proiect de predicție a prețului Bitcoin, construit cu Python. Utilizează modele precum GradientBoostingRegressor și RandomForestRegressor, incluzând preprocesarea datelor, prelucrarea caracteristicilor și ajustarea hiperparametrilor pentru performanță îmbunătățită."
+    },
+    "year": "2024",
+    "technologies": "Python, scikit-learn, pandas, matplotlib",
+    "image": "images/bitcoin.png",
+    "url": "https://bitcoin-forecast-21da6c961a62.herokuapp.com/",
+    "github": "https://github.com/Cosmin1907/bitcoin-forecast"
+  }
 ]
