@@ -1,5 +1,20 @@
 [
   {
+    "id": 0,
+    "title": {
+      "en": "Crypto Profit/Loss Calculator",
+      "ro": "Calculator Profit/Pierdere Crypto"
+    },
+    "description": {
+      "en": "A web-based tool for calculating cryptocurrency profits and losses. Users can input their buy and sell prices, along with transaction fees, to determine net gains or losses. The app fetches real-time data from a public API, stores it in a Firebase database, and serves it to users for a fast and responsive experience.",
+      "ro": "Un instrument web pentru calcularea profiturilor și pierderilor din criptomonede. Utilizatorii pot introduce prețurile de cumpărare și vânzare, împreună cu taxele de tranzacție, pentru a determina câștigurile sau pierderile nete. Aplicația preia date în timp real de la un API public, le stochează într-o bază de date Firebase și le servește utilizatorilor pentru o experiență rapidă și fluidă."
+    },
+    "year": "2025",
+    "technologies": "HTML5, CSS, JavaScript, Firebase, REST API",
+    "image": "images/crypto.png",
+    "url": "https://cryptoprofitlosscalculator.com/"
+  },  
+  {
     "id": 1,
     "title": {
       "en": "Web Directory with React and WordPress",
