@@ -2,6 +2,21 @@
   {
     "id": 0,
     "title": {
+      "en": "Biological Age Calculator",
+      "ro": "Calculator Vârstă Biologică"
+    },
+    "description": {
+      "en": "A health-focused web app that estimates your biological age based on fitness metrics, built using Next.js.",
+      "ro": "O aplicație web de sănătate care estimează vârsta biologică pe baza conditiei fizicece, construită cu Next.js.."
+    },
+    "year": "2025",
+    "technologies": "Next.js, React, CSS, JavaScript",
+    "image": "/images/bioage.png",
+    "url": "https://biologicalagecalculator.org/"
+  },
+  {
+    "id": 0,
+    "title": {
       "en": "Crypto Profit/Loss Calculator",
       "ro": "Calculator Profit/Pierdere Crypto"
     },

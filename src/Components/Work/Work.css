@@ -19,7 +19,7 @@
 
 .portfolio-cards-container {
   width: 100%;
-  height: 1600px; /* Set a fixed height to enable scrolling - adjust as needed */
+  height: 1600px; /* Set height to enable scrolling  */
   overflow: hidden;
   padding: 0;
 }
