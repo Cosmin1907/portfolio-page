@@ -12,19 +12,21 @@ const Work = () => {
         <h2>{t('portfolio')}</h2>
         <p>{t('portfolioDescription')}</p>
       </div>
-      <div className="portfolio-cards">
-        {data.map((project) => (
-          <Card 
-            key={project.id}
-            title={project.title}
-            description={project.description}
-            year={project.year}
-            technologies={project.technologies}
-            image={project.image}
-            url={project.url}
-            github={project.github}
-          />  
-        ))}
+      <div className="portfolio-cards-container">
+        <div className="portfolio-cards">
+          {data.map((project) => (
+            <Card 
+              key={project.id}
+              title={project.title}
+              description={project.description}
+              year={project.year}
+              technologies={project.technologies}
+              image={project.image}
+              url={project.url}
+              github={project.github}
+            />  
+          ))}
+        </div>
       </div>
     </section>
   )
